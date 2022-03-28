@@ -2,6 +2,7 @@ descartes==1.1.0
 geopandas==0.10.2
 google==2.0.3
 guppy3==3.1.2
+imageio==2.4.1
 matplotlib==3.2.2
 netCDF4==1.5.8
 numpy==1.21.5

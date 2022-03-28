@@ -51,6 +51,7 @@ Google Drive organization (for Colab access):
 * My Drive/  
 	* Colab Notebooks/  
 		* cnn_lstm_era/   
+			* requirements.txt
 			* models/  
 			* output/  
 			* heat_maps/ 

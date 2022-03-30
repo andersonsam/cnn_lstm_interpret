@@ -23,6 +23,11 @@ ___
 
 ___  
 ## Summary of code 
+
+We use the models as trained [here](https://github.com/andersonsam/cnn_lstm_era).  The models have a sequencial CNN-LSTM structure, where daily temperature and precipitation fields are passed through a convolutional network that outputs feature vectors for each day.  The series of feature vectors is then passed through an LSTM network that predicts daily streamflow at multiple stream gauge stations.  
+
+<img src= "https://github.com/andersonsam/cnn_lstm_interpret/blob/main/Figures/model_architecture.png" width=100% >
+
 ### Experiment 1: Model sensitivity through space/time  
 Here we investigate if the model has learned to focus on physically relevant areas of the input domain.  The temporal evolution of sensitivity maps through time, as derived for each cluster, reveals two distinct spatial patterns of sensitivity.  One spatial pattern of sensitivity occurs during high flow periods, while the other occurs during low flow periods.  We derive these patterns for each subregional cluster of stream gauge stations.  
 
@@ -51,7 +56,6 @@ Google Drive organization (for Colab access):
 * My Drive/  
 	* Colab Notebooks/  
 		* cnn_lstm_era/   
-			* requirements.txt
 			* models/  
 			* output/  
 			* heat_maps/ 

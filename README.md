@@ -1,10 +1,10 @@
 # Interpreting CNN-LSTMs for streamflow modelling across glacial, nival, and pluvial regimes in southwestern Canada
 
 This repository contains the code used in the study:  
-Anderson, Sam, and Radic, Valentina. "Interpreting deep machine learning for streamflow modelling across glacial, nival, and pluvial regimes in southwestern Canada".  Frontiers in Earth Science (submitted 2022).  
+Anderson, Sam, and Radic, Valentina. "Interpreting deep machine learning for streamflow modelling across glacial, nival, and pluvial regimes in southwestern Canada".  Frontiers in Water (submitted 2022).  
 
 Contact: Sam Anderson  
-Email: sanderson@eoas.ubc.ca  
+Email: anderson.sam.lucas@gmail.com
 ___  
 ## Overview  
 The code in this repository can reproduce all figures and findings in the study.  All data used is publicly accessable.  The code in this repository uses the CNN-LSTM models as trained in the paper ["Evaluation and interpretation of convolutional long short-term memory networks for regional hydrological modelling"](https://hess.copernicus.org/articles/26/795/2022/hess-26-795-2022.html), with [associated code provided provided here](https://github.com/andersonsam/cnn_lstm_era).  This repository contains the following files:
@@ -16,8 +16,9 @@ ___
 1. Set up directory structure.
     * It is best to run main.ipynb on a GPU for faster processing.  This code is set up to run on Google Colab, which can access files stored in Google Drive and Github.  Organize files as described below.
 
-2. Download required data and train (or load) CNN-LSTM models.
+2. Download required data.
     * Follow steps 1 - 8 as [outlined here](https://github.com/andersonsam/cnn_lstm_era).
+    * Note: The CNN-LSTM models can be trained as [outlined here](https://github.com/andersonsam/cnn_lstm_era) if desired, OR the pre-trained models can simply be loaded.  In main.ipynb, the pre-trained models are loaded in rather than trained.
 
 3. Run main.ipynb
 

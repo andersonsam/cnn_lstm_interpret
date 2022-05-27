@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/340710848.svg)](https://zenodo.org/badge/latestdoi/340710848)  
+
 # Interpreting CNN-LSTMs for streamflow modelling across glacial, nival, and pluvial regimes in southwestern Canada
 
 This repository contains the code used in the study:  
